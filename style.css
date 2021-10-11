@@ -5,6 +5,10 @@
 	background-color: #fbfbfb;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	width: 95%;
 	margin: auto 0;
@@ -50,10 +54,11 @@ nav header{
 	border-top: solid 1px;
 }
 
-.nav-links > li > a{
+a{
 	text-decoration: none;
 	padding: 12px 10px 12px 20px;
 	font-size: 1em;
+	color:black;
 }
 
 .nav-links > li > a:visited{
